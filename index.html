@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script src="fable.js"></script>
    <section id="header">
     <div class="searching">
     <a href="#"><img src="images/LOGO.jpeg" class="logo" height="60px" width="110px"></a>
-        <form action="sho.html" method="get" class="search-bar">
-            <input type="text" placeholder="search your fashion" name="q">
+        <form action="" method="get" class="search-bar">
+            <input type="text" id="search-item" name="search" value="" placeholder="search your fashion" onkeyup="search()" autocomplete="off">
             <button type="submit"><img src="images/search.png" alt="" height="16px" width="16px"></button>     
         </form>
     </div>
@@ -401,9 +402,9 @@
             <h4 style="display: flex; width: 50%;"> 
                 My Account
             </h4> <br>
-            <a href="#">Sign In</a><br>
+            <a href="account.html">Sign Up</a><br>
             <a href="#">View Cart</a><br>
-            <a href="#">My Wishlist</a><br>
+            <a href="#">My Profile</a><br>
             <a href="#">My orders</a><br>
             <a href="#">Help</a><br>
         </div>
